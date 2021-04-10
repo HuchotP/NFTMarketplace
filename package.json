@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "@openzeppelin/contracts": "^4.0.0",
+    "chai": "^4.3.4",
+    "ethereum-waffle": "^3.3.0",
+    "mocha": "^8.3.2"
+  },
+  "scripts": {
+    "build": "waffle",
+    "test": "mocha --timeout 10000"
+  }
+}
